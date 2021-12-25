@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    background: rgba(209, 229, 248, 0.16);
+    
+    width: 100%;
+    height: 400px;
+    /* box-shadow: 5px 10px #888888; */
+    position: absolute;
+}
+.head1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 75px;
+    
+
+    /* Blue */
+
+    color: #0A61AE;
+    margin-left: -720px;
+
+    
+
+}
+.head2{
+    
+    margin-left: -600px;
+    margin-top: 70px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #141212;
+}
+.search{
+   position: relative; 
+   top: 10%;
+   left: 14%;
+   transform: translate(-50%,-50%);
+}
+input{
+    text-decoration: none;
+    border: 3px solid rgb(47, 152, 212);
+    
+
+    width: 300px;
+    height: 35px;
+    left: 99px;
+    top: 414px;
+
+    /* light blue */
+
+    background: #CBDFF1;
+    border-radius: 6px;
+    /* position: absolute; */
+}
+.search {
+    position: relative;
+   
+}
+.search .fa-search {
+    position: absolute;
+    left: 65%;
+    width: 100%;
+    /* border: auto solid rgb(47, 152, 212); */
+    /* display: flex; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+    /* border: 3px; */
+}
+
+
+
+  

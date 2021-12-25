@@ -1,0 +1,1 @@
+export const NAVIGATE_PAGE='NAVIGATE_PAGE';
