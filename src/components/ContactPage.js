@@ -5,6 +5,7 @@ import './../css/ContactPage.css';
 function ContactPage(){
     return(
         <div className="App">
+			<NavBar />
             <section>
 		<div class="container">
 			<div class="ContactInfo">
@@ -59,23 +60,23 @@ function ContactPage(){
 				<div class="formBox">
 					<div class="inputBox w50">
 						<input type="text" maxlength="25" required>
-						<span>First Name</span></input>
+						</input>
 					</div>
 					<div class="inputBox w50">
 						<input type="text" maxlength="25" required>
-						<span>Last Name</span></input>
+						</input>
 					</div>
 					<div class="inputBox w50">
 						<input type="email" maxlength="30" required>
-						<span>Email Address</span></input>
+						</input>
 					</div>
 					<div class="inputBox w50">
 						<input type="tel" minlength="10" required>
-						<span>Mobile No</span></input>
+						</input>
 					</div>
 					<div class="inputBox w100">
-						<textarea name="Query" id="Query" required></textarea>
-						<span>Type your query here...</span>
+						<textarea name="Query" id="Query" required>
+						Type your query here...</textarea>
 					</div>
 					<div class="inputBox w100">
 						<input type="submit" value="SUBMIT"></input>

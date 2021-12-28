@@ -7,7 +7,7 @@ import LandingPage from './LandingPage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
 
-import { navigatePage } from '../redux';
+import { navigateContactPage, navigateAboutPage, navigateHomePage } from '../redux';
 import {connect} from 'react-redux'
 //import { render } from 'react-dom';
 
@@ -51,7 +51,9 @@ const mapStateToProps=state=>{
 }
 const mapDespatchToProps=dispatch=>{
   return{
-    navigatePage:()=>dispatch(navigatePage())
+    navigateHomePage:()=>dispatch(navigateHomePage()),
+      navigateContactPage:()=> dispatch(navigateContactPage()),
+      navigateAboutPage:() => dispatch(navigateAboutPage())
   }
 }
 
