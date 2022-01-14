@@ -1,10 +1,11 @@
 
 
-import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE,  NAVIGATE_HOMEPAGE, OPEN_LOGINFORM, CLOSE_LOGINFORM} from "./PageTypes";
+import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE,  NAVIGATE_HOMEPAGE, OPEN_LOGINFORM, CLOSE_LOGINFORM, OPEN_SIGNUPFORM, CLOSE_SIGNUPFORM} from "./PageTypes";
 
 const initialState={
     page:'LandingPage',
-    showLoginForm: false
+    showLoginForm: false,
+    showSignupForm: false
 }
 
 const PageReducer=( state=initialState ,action)=>{
@@ -26,12 +27,24 @@ const PageReducer=( state=initialState ,action)=>{
         }
         case OPEN_LOGINFORM:return{
             ...state,
-            showLoginForm: true
+            showLoginForm: true,
+            showSignupForm: false
         
         }
         case CLOSE_LOGINFORM:return{
             ...state,
             showLoginForm: false
+        
+        }
+        case OPEN_SIGNUPFORM:return{
+            ...state,
+            showSignupForm: true,
+            showLoginForm: false
+        
+        }
+        case CLOSE_SIGNUPFORM:return{
+            ...state,
+            showSignupForm: false
         
         }
 

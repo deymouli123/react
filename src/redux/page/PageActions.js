@@ -1,4 +1,4 @@
-import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE, OPEN_LOGINFORM, CLOSE_LOGINFORM} from "./PageTypes";
+import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE, OPEN_LOGINFORM, CLOSE_LOGINFORM, OPEN_SIGNUPFORM, CLOSE_SIGNUPFORM} from "./PageTypes";
 
 
 export const navigateAboutPage=() => {
@@ -27,5 +27,17 @@ export const openLoginForm=() => {
 export const closeLoginForm=() => {
     return{
         type:CLOSE_LOGINFORM
+    }
+}
+
+export const openSignupForm=() => {
+    return{
+        type:OPEN_SIGNUPFORM
+    }
+}
+
+export const closeSignupForm=() => {
+    return{
+        type:CLOSE_SIGNUPFORM
     }
 }

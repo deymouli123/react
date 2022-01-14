@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import './../css/ContactPage.css';
 
+
 function ContactPage(){
     return(
         <div className="App">

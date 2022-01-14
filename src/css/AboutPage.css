@@ -6,41 +6,80 @@ header{
     background: rgba(209, 229, 248, 0.16);
     
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     /* box-shadow: 5px 10px #888888; */
     position: absolute;
 }
 
-    
+h1{
+    position: inherit;
+    color: #0A61AE;
+    left: 680px;
+    top: 25px;
+} 
 
 .cont1{
     position: absolute;
-    padding: 20px 10px;
+    padding: 25px 15px;
     width: 50%;
-    height: 160px;
-    left: 500px;
-    top: 110px;
+    height: 180px;
+    left: 570px;
+    top: 100px;
 
     background: #CBDFF1;
     border-radius: 20px;
 }
 .cont2{
     position: absolute;
-    padding: 30px 15px;
+    padding: 30px 20px;
     width: 50%;
-    height: 180px;
-    left: 126px;
+    height: 250px;
+    left: 140px;
     top: 400px;
 
     background: #CBDFF1;
     border-radius: 20px;
 }
+.cont3{
+    position: absolute;
+    padding: 25px 15px;
+    width: 80%;
+    height: 180px;
+    left: 600px;
+    top: 280px;
+
+    background: #CBDFF1;
+    border-radius: 20px;
+}
+.cont4{
+    position: absolute;
+    padding: 25px 15px;
+    width: 80%;
+    height: 180px;
+    left: 10px;
+    top: 500px;
+
+    background: #CBDFF1;
+    border-radius: 20px;
+}
+.cont5{
+    position: absolute;
+    padding: 25px 15px;
+    width: 80%;
+    height: 180px;
+    left: 600px;
+    top: 750px;
+
+    background: #CBDFF1;
+    border-radius: 20px;
+}
+
 .one img{
     
     width: 250px;
     height: 200px;
-    margin-top: 20px;
-    margin-left: 140px;
+    margin-top: 90px;
+    margin-left: 160px;
     border-radius: 25px;
 }
 
@@ -49,8 +88,37 @@ header{
     position: absolute;
     width: 250px;
     height: 200px;
-    left: 943px;
-    top: 410px;
+    left: 1000px;
+    top: 420px;
+    border-radius: 25px;
+    
+}
+.three img{
+    
+    
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.four img{
+    
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 890px;
+    top: 500px;
+    border-radius: 25px;
+    
+}
+.five img{
+    
+    
+    width: 250px;
+    height: 200px;
+    margin-top: 250px;
+    margin-left: 10px;
     border-radius: 25px;
     
 }

@@ -1,2 +1,2 @@
-export { navigateContactPage, navigateAboutPage, navigateHomePage, openLoginForm, closeLoginForm } from "./page/PageActions";
+export { navigateContactPage, navigateAboutPage, navigateHomePage, openLoginForm, closeLoginForm, openSignupForm, closeSignupForm } from "./page/PageActions";
 
