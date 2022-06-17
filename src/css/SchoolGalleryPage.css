@@ -1,0 +1,115 @@
+*{
+    font-family: 'Poppins', sans-serif;  
+}
+
+.con1 img{
+    position: absolute;
+    padding: 25px 20px;
+    width: 1360px;
+    height:300px;  
+}
+.pos h2{
+    color: rgb(1, 5, 8);
+    position: relative;
+    font-size: 30px;
+    left: 20px;
+    top: -20px;
+
+}
+.pos h3{
+    color: rgb(72, 73, 73);
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+.pos button{
+    position: relative;
+    width: 150px;
+    
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(17, 109, 189);
+    color: white;
+    font-size: 16px;
+    top: -70px;
+    left: 1150px;
+}
+.pos img{
+    position: relative;
+    left: 600px;
+    top: 110px;
+    width: 200px;
+    height:300px;
+    clip-path: circle();
+
+}
+.con2{
+    position: relative;
+    left: 0px;
+    top: -50px;
+    padding: 25px 20px;
+    width: 100%;
+    height:180px;
+    
+}
+.con3{
+    position: relative;
+    left: 0px;
+    top: -120px;
+    padding: 25px 20px;
+    width: 100%;
+    height:70px;
+    background-color: #E1E9ED;
+    
+}
+.con3 h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.con4{
+    /* position: relative; */
+    left: 0px;
+    margin-top: -100px;
+    
+    width: 100%;
+    height:50px;
+    
+    background-color: white;
+    
+}
+.con4 button{
+    position: relative; 
+    
+    margin-left: 220px !important;
+    margin-top: -300px !important;
+     
+    width: 150px;
+    height: 50px;
+    font-size: 20px; 
+    font-weight: bold;
+    
+}
+.con5{
+    position: relative;
+    left: 0px;
+    top: -10px;
+    padding: 25px 100px;
+    width: 100%;
+    height:1000px;
+    table-layout: auto;
+    background-color: #E1E9ED;
+    
+}
+.con5 img{
+    position: relative;
+    left: 115px;
+    width: 300px;
+    height: 300px;
+    padding: 25px 25px;
+    border-radius: 20%;
+}
+
+
+
+

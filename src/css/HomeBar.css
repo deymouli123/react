@@ -1,0 +1,109 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* .container{
+    background-color: white;
+    display: flex;
+    margin: 100px auto;
+    width: 75%;
+    height: 300px;
+    margin-top: 55px;
+    
+    
+} */
+
+.nav{
+    /* border: 0.1px solid; */
+    padding-bottom: 20px;  
+    box-shadow: 5px 5px #504d4d1a;
+}
+
+
+.nav{
+    position: relative;
+    width: 100%;
+ 
+
+    /* White */
+
+    background: #FFFFFF;
+    list-style: none;
+    top: 0;
+    
+}
+.nav {
+    
+    display: inline-block;
+    
+
+}
+.nav a.pro{ 
+    
+    float: left;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 66px;
+    top: 5px;
+    
+    
+    /* identical to box height */
+
+    
+}
+.nav a.active button{
+
+    background-color: #3a53e0;
+    color: white;
+    border-radius: 6px;
+    width: 70px;
+    height: 30px;
+    top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+.nav a.block button{
+
+    border-color: #3ac6e9 ;
+    background-color: white;
+    border-radius: 6px;
+    width: 70px;
+    height: 30px;
+    top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.nav a{
+    position:relative;
+    float: right;
+    /* margin-top: 5px; */
+    margin-right: 45px;
+    text-transform: capitalize;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+
+    color: #000000;
+    text-decoration: none;
+    padding-top: 5px;
+    
+    padding: 10px ; 
+    
+    transition: .6s ease;
+
+}
+.nav a:hover{
+    /*background-color: #0f65aa;*/
+    color: rgb(142, 179, 194);
+}
+.nav a.pro:hover{
+    color: #0A61AE;
+}

@@ -12,41 +12,41 @@ import NavBar from './NavBar';
 
 
 function LandingPage() {
-  
-    // const useStyles = makeStyles((theme) => ({
-    //   root: {
-    //     position: "relative",
-    //     top: "10%",
-    //     left: "14%",
-    //     paddingLeft: "10px",
-    //     backgroundColor: "rgb(47, 152, 212)"
-    //     // right: "-100%",
-    //     // transform: "translate(-50% -50%)"
-    //   },
-    //   input: {
-    //     // textEmphasisColor: "#151983",
-    //     color:"#151983",
-    //     fontSize: "25px",
-    //     // marginLeft: theme.spacing(1),
-    //     // flex: 1,
-        
-    //     '&::placeholder': {
-    //       fontStyle: 'italic',
-    //       color:"#0A61AE",
-    //     },
-        
-    //   },
-    //   iconButton: {
-    //     color: "#0A61AE",
-    //     // padding: 10,
-    //     // fontSize: "80px",
-    //     // color: blue,
-    //   },
-    //   // divider: {
-    //   //   height: 28,
-    //   //   margin: 4,
-    //   // },
-    // }));
+
+  // const useStyles = makeStyles((theme) => ({
+  //   root: {
+  //     position: "relative",
+  //     top: "10%",
+  //     left: "14%",
+  //     paddingLeft: "10px",
+  //     backgroundColor: "rgb(47, 152, 212)"
+  //     // right: "-100%",
+  //     // transform: "translate(-50% -50%)"
+  //   },
+  //   input: {
+  //     // textEmphasisColor: "#151983",
+  //     color:"#151983",
+  //     fontSize: "25px",
+  //     // marginLeft: theme.spacing(1),
+  //     // flex: 1,
+
+  //     '&::placeholder': {
+  //       fontStyle: 'italic',
+  //       color:"#0A61AE",
+  //     },
+
+  //   },
+  //   iconButton: {
+  //     color: "#0A61AE",
+  //     // padding: 10,
+  //     // fontSize: "80px",
+  //     // color: blue,
+  //   },
+  //   // divider: {
+  //   //   height: 28,
+  //   //   margin: 4,
+  //   // },
+  // }));
 
   // const classes = useStyles();
 
@@ -79,7 +79,7 @@ function LandingPage() {
         </div>
         <div className="search">
 
-        {/* <Paper component="form" className={classes.root} Style={{marginLeft:"2px"}}>
+          {/* <Paper component="form" className={classes.root} Style={{marginLeft:"2px"}}>
         
           <InputBase
             className={classes.input}
@@ -98,14 +98,19 @@ function LandingPage() {
         
 
         </Paper> */}
-    
+
 
 
           <input type="text" name="box" placeholder="Search Schools" />
           <a className="sbtn" href="#"><i className="fas fa-search" style={{ fontSize: 30 }}></i></a>
         </div>
 
+        <div>
+          <img src="./images/kids.png" style={{ width: "600px", marginLeft: "auto", marginRight: "10px", position: "absolute", top: "50px", right: "40px" }} />
+        </div>
+
       </header>
+
 
 
     </div>

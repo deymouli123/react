@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import logo from './../logo.svg';
-import './../App.css';
+// import './../App.css';
 
 import './../css/MainPage.css';
 import LandingPage from './LandingPage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
-
+import School from './School';
 import { navigateContactPage, navigateAboutPage, navigateHomePage } from '../redux';
 import {connect} from 'react-redux'
 //import { render } from 'react-dom';
@@ -37,7 +37,14 @@ class MainPage extends Component{
 
         </div>
       )
-      }else{
+      }else if(this.props.page==='SchoolPage'){
+        return(
+          <div><School />
+  
+          </div>
+        )
+        }
+      else{
       return(
         <div>No Page To Display</div>
       )

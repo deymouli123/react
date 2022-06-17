@@ -1,4 +1,4 @@
-import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE, OPEN_LOGINFORM, CLOSE_LOGINFORM, OPEN_SIGNUPFORM, CLOSE_SIGNUPFORM} from "./PageTypes";
+import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE, NAVIGATE_SCHOOL, OPEN_LOGINFORM, CLOSE_LOGINFORM, OPEN_SIGNUPFORM, CLOSE_SIGNUPFORM, } from "./PageTypes";
 
 
 export const navigateAboutPage=() => {
@@ -15,6 +15,12 @@ export const navigateContactPage=() => {
 export const navigateHomePage=() => {
     return{
         type:NAVIGATE_HOMEPAGE
+    }
+}
+
+export const navigateSchool=() => {
+    return{
+        type:NAVIGATE_SCHOOL
     }
 }
 

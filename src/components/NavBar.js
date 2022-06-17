@@ -4,7 +4,7 @@ import './../css/NavBar.css';
 import LoginForm from './LoginForm';
 import SignupForm from './SignupForm';
 import { connect } from 'react-redux';
-import { navigateContactPage, navigateAboutPage, navigateHomePage , openLoginForm, closeLoginForm, openSignupForm, closeSignupForm} from '../redux';
+import { navigateContactPage, navigateAboutPage, navigateHomePage , navigateSchool, openLoginForm, closeLoginForm, openSignupForm, closeSignupForm} from '../redux';
 // import Button from "@material-ui/core/Button";
 
 function NavBar(props) {
@@ -18,7 +18,7 @@ function NavBar(props) {
         <a className="block" href="#"><button onClick={props.openLoginForm}>Login</button></a>
         <a onClick={props.navigateContactPage} href="#">Contact Us</a>
         <a onClick={props.navigateAboutPage} href="#">About Us</a>
-        <a href="#">Schools </a>
+        <a onClick={props.navigateSchool} href="#">Schools </a>
         <a onClick={props.navigateHomePage} href="#">Home</a>
         <a className='pro' img src='./images/promoralogo.png' width={30} height={30} href='#'></a>
       </span>
@@ -43,6 +43,7 @@ const mapDespatchToProps = dispatch => {
     navigateHomePage: () => dispatch(navigateHomePage()),
     navigateContactPage: () => dispatch(navigateContactPage()),
     navigateAboutPage: () => dispatch(navigateAboutPage()),
+    navigateSchool:() => dispatch(navigateSchool()),
     openLoginForm: () => dispatch(openLoginForm()),
     closeLoginForm: () => dispatch(closeLoginForm()),
     openSignupForm: () => dispatch(openSignupForm()),
