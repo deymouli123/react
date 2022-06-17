@@ -39,18 +39,26 @@ header {
     top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
-    border: 5px solid #0A61AE;
+    border: 2px solid #0A61AE;
     border-radius: 2%;
     width: fit-content;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
-input {
+.search input {
     width: 350px;
-    outline: null;
+    height: 40px;
+    outline: none;
     border: none;
     background: transparent;
 
+}
+
+.search input:focus {
+    width: 350px;
+    outline: none;
+    border: none;
+    background: transparent;
 }
 
 .search {
