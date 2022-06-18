@@ -1,0 +1,7 @@
+a.l1:hover, a.l1:active {
+    color: red;
+}
+a.l1 {
+    text-decoration: none;
+    color: blue;
+}

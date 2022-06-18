@@ -1,6 +1,7 @@
 import React from 'react';
 //import NavBar from "./NavBar";
 import { connect } from 'react-redux';
+import styles from './../css/SignupForm.css';
 
 import { navigateContactPage, navigateAboutPage, navigateHomePage, openLoginForm, closeLoginForm, openSignupForm, closeSignupForm } from '../redux';
 //import Popup from 'reactjs-popup';
@@ -14,14 +15,13 @@ import Button from "@material-ui/core/Button";
 import TextField from '@material-ui/core/TextField';
 import Avatar from '@material-ui/core/Avatar';
 
-
 function SignupForm(props) {
   return (
       
         <Dialog open={props.showSignupForm} onClose={props.closeSignupForm} style={{width:"100%"}}>
           <DialogTitle>{"Sign Up"}</DialogTitle>
           <DialogContent style={{marginLeft:"70px", width:"70%", height:"400px"}}>
-          <Avatar alt="promoralogo" src="../../images/Prolog.jpeg"  style={{marginLeft: "100px", height: "120px", width: "120px"}}/>
+          <Avatar alt="promoralogo" src="../../images/Prolog.jpeg"  style={{marginLeft: "110px", height: "100px", width: "100px", marginTop: "-10px"}}/>
 
           <TextField
                 autoFocus
@@ -51,11 +51,20 @@ function SignupForm(props) {
                 fullWidth
                 variant="outlined"
             />
+
+            <TextField
+                margin="dense"
+                id="confirm password"
+                label="confirm Password"
+                type="text"
+                fullWidth
+                variant="outlined"
+            />    
             
             <Button variant="contained" color="primary" margin="dense" style={{marginTop:"20px", width:"100%"}}>
               SIGN UP
             </Button>
-            <span>Registered? <a href='#' onClick={props.openLoginForm}>Login</a>  </span>
+            <span>Registered? <a href='#' className={styles.l1} onClick={props.openLoginForm} >Login</a>  </span>
 
               {/* <Input
             id="standard-adornment-password"

@@ -1,0 +1,38 @@
+#UserProfile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.profileTop{
+    
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: transparent;
+   
+}
+#elements{
+    width: 100%;
+    margin: 0 auto;
+    background: #E1E9ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+    align-content: center;
+    transform: translateY(-1rem);
+}

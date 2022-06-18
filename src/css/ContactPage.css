@@ -1,68 +1,66 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap);
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-section{
+
+section {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     min-height: 100vh;
     background: #E1E9ED;
-
+    flex-direction: column;
 }
-/*
-section::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;}
-    background: #2b0521;
-}*/
 
+h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
 
-.container{
+.container {
     position: relative;
     min-width: 1100px;
     min-height: 600px;
     display: flex;
     z-index: 1000;
-    
+
 }
 
-.container .ContactInfo{
+.container .ContactInfo {
     position: absolute;
     top: 40px;
     width: 350px;
     height: calc(100% - 90px);
-    background-color:  #CBDFF1;
+    background-color: #CBDFF1;
     z-index: 1;
     padding: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.container .ContactInfo h2{
-    /* /color: wheat;/ */
-    color: #0A61AE;;
+.container .ContactInfo h2 {
+
+    color: #0A61AE;
+    ;
     font-size: 24px;
     font-weight: 500;
 }
 
-.container .ContactInfo ul.info{
+.container .ContactInfo ul.info {
     position: absolute;
     margin: 20px 0;
     margin-top: 5px;
 }
 
-.container .ContactInfo ul.info li{
+.container .ContactInfo ul.info li {
     position: relative;
     list-style: none;
     display: flex;
@@ -71,81 +69,80 @@ section::before{
     align-items: flex-start;
 }
 
-.container .ContactInfo ul.info li span:nth-child(1){
+.container .ContactInfo ul.info li span:nth-child(1) {
     width: 30px;
     min-width: 30px;
 }
-.container .ContactInfo ul.info li span:nth-child(1) img{
+
+.container .ContactInfo ul.info li span:nth-child(1) img {
     max-width: 100%;
-    
+
 }
-.container .ContactInfo ul.info li span:nth-child(2){
-    color: #0A61AE;;
-    /* /color: #6411ad;/ */
+
+.container .ContactInfo ul.info li span:nth-child(2) {
+    color: #0A61AE;
+    ;
     margin-left: 10px;
     font-weight: 300;
 }
-.container .ContactInfo ul.info li span:nth-child(2) a:link{
+
+.container .ContactInfo ul.info li span:nth-child(2) a:link {
     color: rgb(14, 52, 133);
     text-decoration: none;
 }
-/*.container .ContactForm ul.info li span:nth-child(1) img:hover{
 
-}*/
 
-.container .ContactInfo .FollowUs h3{
-   margin-top: 300px;
+.container .ContactInfo .FollowUs h3 {
+    margin-top: 300px;
     position: relative;
-    /* color: wheat; */
     color: #47126b;
     font-size: 20px;
     font-weight: 500;
 
 }
-.container .ContactInfo .FollowUs ul.sci{
+
+.container .ContactInfo .FollowUs ul.sci {
     position: relative;
     display: flex;
+    margin: auto 0;
+    align-items: center;
+
 }
-.container .ContactInfo .FollowUs ul.sci li{
+
+.container .ContactInfo .FollowUs ul.sci li {
     list-style: none;
     margin-right: 20px;
     margin-top: 20px;
 }
 
-.container .ContactInfo .FollowUs ul.sci li a:link{
+.container .ContactInfo .FollowUs ul.sci li a:link {
     text-decoration: none;
 }
-.container .ContactInfo .FollowUs ul.sci li a:link img{
-    filter: invert(1);
-}
-
-.container .ContactInfo .FollowUs ul.sci li a:link img:hover{
-    transform: scale(1.5);
-    filter: invert(0);
-    color:#292291;
-}
 
 
 
-.container .ContactForm{
+
+.container .ContactForm {
     position: absolute;
     padding: 70px 50px;
     padding-left: 250px;
     margin-left: 150px;
     width: calc(100% - 150px);
     height: 100%;
-   /* background: rgba(245, 222, 179, 0.918);*/
-   background: #f8f8fa;
-   box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+    /* background: rgba(245, 222, 179, 0.918);*/
+    background: #f8f8fa;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+    border: 2px solid #0A61AE;
 }
 
-.container .ContactForm h2{
-    color: #0A61AE;;
+.container .ContactForm h2 {
+    color: #0A61AE;
+    ;
     font-size: 24px;
     font-weight: 600;
 }
 
-.container .ContactForm .formBox{
+.container .ContactForm .formBox {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -153,21 +150,23 @@ section::before{
     padding-top: 30px;
 }
 
-.container .ContactForm .formBox .inputBox{
+.container .ContactForm .formBox .inputBox {
     position: relative;
     margin-bottom: 35px;
-    
-    
+
+
 }
 
-.container .ContactForm .formBox .inputBox.w50{
+.container .ContactForm .formBox .inputBox.w50 {
     width: 47%;
 }
-.container .ContactForm .formBox .inputBox.w100{
+
+.container .ContactForm .formBox .inputBox.w100 {
     width: 100%;
 }
-.container .ContactForm .formBox .inputBox input, 
-.container .ContactForm .formBox .inputBox textarea{
+
+.container .ContactForm .formBox .inputBox input,
+.container .ContactForm .formBox .inputBox textarea {
     width: 100%;
     resize: none;
     padding: 5px 0;
@@ -178,14 +177,17 @@ section::before{
     background: transparent;
     outline: none;
     border-bottom: 2px solid rgb(14, 52, 133);
-   
+    border-radius: 0px;
 }
-.container .ContactForm .formBox .inputBox textarea{
+
+.container .ContactForm .formBox .inputBox textarea {
     margin-top: 100px;
     height: 40px;
-    color: #0A61AE;;
+    color: #0A61AE;
+    ;
 }
-.container .ContactForm .formBox .inputBox span{
+
+.container .ContactForm .formBox .inputBox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -196,11 +198,10 @@ section::before{
     color: #0A61AE;
 }
 
-.container .ContactForm .formBox .inputBox input:focus ~ span,
-.container .ContactForm .formBox .inputBox input:valid ~ span,
-.container .ContactForm .formBox .inputBox textarea:focus ~ span,
-.container .ContactForm .formBox .inputBox textarea:valid ~ span
-{
+.container .ContactForm .formBox .inputBox input:focus~span,
+.container .ContactForm .formBox .inputBox input:valid~span,
+.container .ContactForm .formBox .inputBox textarea:focus~span,
+.container .ContactForm .formBox .inputBox textarea:valid~span {
     transform: translateY(-20px);
     font-size: 12px;
     font-weight: 400;
@@ -208,13 +209,15 @@ section::before{
     color: #47126b;
     font-weight: 500;
 }
-.container .ContactForm .formBox .inputBox input[type="submit"]{
+
+.container .ContactForm .formBox .inputBox input[type="submit"] {
     margin-left: -500px;
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    background: #0A61AE;;
+    background: #0A61AE;
+    ;
     color: #f6f9fa;
     border: none;
     max-width: 150px;
@@ -222,29 +225,29 @@ section::before{
     padding: 4px;
 }
 
-.container .ContactForm .formBox .inputBox input[type="submit"]:hover{
+.container .ContactForm .formBox .inputBox input[type="submit"]:hover {
     background: #E1E9ED;
     color: black;
     font-weight: bold;
 }
 
-@media (max-width : 1200px)
-{
-    .container{
+@media (max-width : 1200px) {
+    .container {
         width: 90%;
         min-width: auto;
         margin: 20%;
-        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
     }
-    .container .ContactInfo{
+
+    .container .ContactInfo {
         top: 0;
         height: 550px;
         position: relative;
         box-shadow: none;
     }
-    .container .ContactForm
-    {
-        position:relative;
+
+    .container .ContactForm {
+        position: relative;
         width: calc(100% - 350px);
         padding: 0;
         margin-left: 0;
@@ -254,53 +257,54 @@ section::before{
     }
 }
 
-@media (max-width : 1134px)
-{
-    section
-    {
+@media (max-width : 1134px) {
+    section {
         background: #1d0111;
     }
-    section::before{
+
+    section::before {
         display: none;
     }
-    .container
-    {
-        display:flex;
+
+    .container {
+        display: flex;
         flex-direction: column-reverse;
     }
-    .container .ContactForm{
+
+    .container .ContactForm {
         width: 100%;
         height: auto;
     }
-    .container .ContactInfo
-    {
+
+    .container .ContactInfo {
         width: 100%;
         height: auto;
         flex-direction: column;
     }
-    
-    .container .ContactInfo .FollowUs ul.sci{
+
+    .container .ContactInfo .FollowUs ul.sci {
         position: relative;
         display: flex;
         justify-content: left;
         align-items: left;
         margin-top: 20px;
     }
-   
+
 }
 
-@media (max-width : 600px){
-    .container .ContactForm{
+@media (max-width : 600px) {
+    .container .ContactForm {
         padding: 25px;
-        
+
     }
-    .container .ContactInfo{
+
+    .container .ContactInfo {
         padding: 25px;
         flex-direction: column;
         align-items: flex-start;
     }
-   
-    .container .ContactInfo .FollowUs ul.sci{
+
+    .container .ContactInfo .FollowUs ul.sci {
         margin-top: 20px;
     }
 }
